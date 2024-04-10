@@ -111,3 +111,11 @@
 	    margin-right: auto;
         text-align: center;
     }
+
+    @media (max-width: 1020px) and (min-width: 768px) {
+        #css { 狭いブラウザとタブレット向け } 
+    }
+     
+    @media (max-width: 767px) {
+        #css{ スマホ向け } 
+    }
